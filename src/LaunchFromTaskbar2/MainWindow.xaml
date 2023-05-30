@@ -1,0 +1,17 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LaunchFromTaskbar" Height="188" Width="323" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" Icon="/LaunchFromTaskbar2;component/LaunchFromTaskbarIcon.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Add" Name="AddButton" Grid.Row="0"/>
+        <Button Content="Edit" Height="40" Name="EditButton" Grid.Row="1"/>
+        <Button Content="Move" Height="40" Name="MoveButton" IsEnabled="True" Grid.Row="2"/>
+        <Button Content="Remove" Height="40" Name="RemoveButton" Grid.Row="3"/>
+    </Grid>
+</Window>
